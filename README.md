@@ -8,7 +8,7 @@ Implementation of standard algorithms in
 3. <b>Python</b>
 4. <b>Php</b>
 
-
+<br>
 <h4>Algorithms::</h4>
 
 1. <b>matrixInversion</b>: matrix inversion using LU-decomposition scheme
