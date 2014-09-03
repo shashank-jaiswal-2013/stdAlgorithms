@@ -45,4 +45,7 @@ if __name__ == '__main__':
             (2,3,5),
             (7,8,9)
         ];
+    print("Initial Matrix:: ");
+    printFormatedMatrix(inv(matrix));
+    print("Inverted Matrix:: ");
     printFormatedMatrix(inv(matrix)); 
