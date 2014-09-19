@@ -14,11 +14,11 @@ LU decomposition is really just another way to say Gaussian elimination.
 If you're familiar with that, putting the pieces together is easy.<br>
 Example:
 Let<br>
-      A=A(0)=[<br>
+<b>      A=A(0)=[</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1,2,6;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4,8,-1;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2,3,5;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;];</b><br>
 
 Proceed by Gaussian elimination.<br>
 The first multiplier is ℓ2,1=4/8=0.5 (this is the multiplier that allows us to cancel a2,1=4 using the first row) and the second is ℓ3,1=0/8=0. We arrive at<br>
@@ -38,4 +38,5 @@ which yields the LU decomposition
 
 A= LU ≈ [1,0.5,0;0,1,0.5882;0,0,1]*[8,0,0;1,8.5,0;6,−1,7.5882]
 
-Note that L is just made up of the multipliers we used in Gaussian elimination with 1s on the diagonal, while U is just A(2).
+<br>Note that L is just made up of the multipliers we used in Gaussian elimination with 1s on the diagonal, while U is just A(2).
+
