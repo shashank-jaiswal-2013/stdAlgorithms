@@ -6,7 +6,7 @@ Implementation of matrix Inversion in
 1. <b>JAVA</b>
 2. <b>C++</b>
 3. <b>Python</b>
-4. <b>Php</b>
+4. <b><s>Php</s> Matlab</b>
 
 <br>
 <h4>Mathematical Description::</h4>
