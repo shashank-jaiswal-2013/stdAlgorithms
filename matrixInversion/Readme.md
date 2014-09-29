@@ -10,6 +10,17 @@ Implementation of matrix Inversion in
 
 <br>
 <h4>Mathematical Description::</h4>
+<br>A : matrix to be inverted
+<br>B : identity matrix
+<br>X : inverted matrix
+<br>L : lower triangular matrix
+<br>U : upper triangular matrix
+
+<br> AX = B  .......................(1)
+<br> A = LU  .......................(2)
+<br> UX = G  .......................(3)
+<br> LG = B  .......................(4)
+
 LU decomposition is really just another way to say Gaussian elimination.
 If you're familiar with that, putting the pieces together is easy.<br>
 Example:
@@ -37,12 +48,12 @@ To cancel out a(1)3,2=5, we use the multiplier ℓ3,2=5/8.5≈0.5882 to yield<br
 which yields the LU decomposition
 
 A= LU ≈ [1,0.5,0;0,1,0.5882;0,0,1]*[8,0,0;1,8.5,0;6,−1,7.5882]
-
 <br>Note that L is just made up of the multipliers we used in Gaussian elimination with 1s on the diagonal, while U is just A(2).
 
 
-<h5>FARWARD ELEMINATION</h5>
-
+<h5>FARWARD ELIMINATION</h5>
+<br>Here we attempt to obtain <b>G</b> given <b>L</b> and <b>B</b> as per the equation (4)
 
 
 <h5>BACKWARD SUBSTITUTION</h5>
+<br>Here we attempt to obtain <b>X</b> given <b>U</b> and <b>G</b> as per the equation (3)
