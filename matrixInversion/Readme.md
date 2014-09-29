@@ -21,7 +21,10 @@ Implementation of matrix Inversion in
 <br> UX = G  .......................(3)
 <br> LG = B  .......................(4)
 
-LU decomposition is really just another way to say Gaussian elimination.
+<br>
+<h5>LU DECOMPOSITION</h5>
+Here we attempt to obtain <b>L</b> and <b>U</b> given <b>A</b> as per the equation (2)
+<br>LU decomposition is really just another way to say Gaussian elimination.
 If you're familiar with that, putting the pieces together is easy.<br>
 Example:
 Let<br>
