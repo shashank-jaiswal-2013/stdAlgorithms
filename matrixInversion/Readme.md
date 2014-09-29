@@ -51,9 +51,10 @@ A= LU ≈ [1,0.5,0;0,1,0.5882;0,0,1]*[8,0,0;1,8.5,0;6,−1,7.5882]
 <br>Note that L is just made up of the multipliers we used in Gaussian elimination with 1s on the diagonal, while U is just A(2).
 
 
+<br>
 <h5>FARWARD ELIMINATION</h5>
-<br>Here we attempt to obtain <b>G</b> given <b>L</b> and <b>B</b> as per the equation (4)
+Here we attempt to obtain <b>G</b> given <b>L</b> and <b>B</b> as per the equation (4)
 
-
+<br>
 <h5>BACKWARD SUBSTITUTION</h5>
-<br>Here we attempt to obtain <b>X</b> given <b>U</b> and <b>G</b> as per the equation (3)
+Here we attempt to obtain <b>X</b> given <b>U</b> and <b>G</b> as per the equation (3)
